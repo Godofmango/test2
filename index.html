@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Independent Clocks</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="clock">
+      <h2>1.</h2>
+      <div id="clock1">00:00:00</div>
+      <button onclick="startClock('clock1')">Start</button>
+      <button onclick="stopClock('clock1')">Stop</button>
+    </div>
+
+    <div class="clock">
+      <h2>2.</h2>
+      <div id="clock2">00:00:00</div>
+      <button onclick="startClock('clock2')">Start</button>
+      <button onclick="stopClock('clock2')">Stop</button>
+    </div>
+
+    <div class="clock">
+      <h2>3.</h2>
+      <div id="clock3">00:00:00</div>
+      <button onclick="startClock('clock3')">Start</button>
+      <button onclick="stopClock('clock3')">Stop</button>
+    </div>
+    <div class="clock">
+      <h2>4.</h2>
+      <div id="clock4">00:00:00</div>
+      <button onclick="startClock('clock4')">Start</button>
+      <button onclick="stopClock('clock4')">Stop</button>
+    </div>
+    <div class="clock">
+      <h2>5.</h2>
+      <div id="clock5">00:00:00</div>
+      <button onclick="startClock('clock5')">Start</button>
+      <button onclick="stopClock('clock5')">Stop</button>
+    </div>
+    <button onclick="stopAllClocks()">Stop All</button>
+    <button onclick="startAllClocks()">Start All</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
